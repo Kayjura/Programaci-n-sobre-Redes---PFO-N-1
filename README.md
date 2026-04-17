@@ -1,4 +1,4 @@
-# 🖧 Sistema Cliente-Servidor en Python con SQLite
+# Sistema Cliente-Servidor en Python con SQLite
 
 Este proyecto implementa un sistema **cliente-servidor TCP en Python**.  
 El servidor acepta múltiples clientes de forma concurrente (multihilo), recibe mensajes de texto, los almacena en una base de datos SQLite junto con la fecha y la IP del cliente, y responde con una confirmación.
@@ -7,7 +7,7 @@ El cliente se conecta al servidor, envía mensajes y finaliza su ejecución cuan
 
 ---
 
-## 📁 Estructura del proyecto
+## Estructura del proyecto
 
 ```
 .
@@ -18,14 +18,14 @@ El cliente se conecta al servidor, envía mensajes y finaliza su ejecución cuan
 
 ---
 
-## ⚙️ Requisitos
+## Requisitos
 
 - Python 3.8 o superior  
 - No se requieren librerías externas (solo módulos estándar de Python)
 
 ---
 
-## ▶️ Ejecución del proyecto
+## Ejecución del proyecto
 
 ### 1) Iniciar el servidor
 
@@ -56,7 +56,7 @@ El cliente:
 
 ---
 
-## 🧠 Funcionamiento del servidor (`servidor.py`)
+## Funcionamiento del servidor (`servidor.py`)
 
 ### 🔌 Conectividad
 
@@ -66,14 +66,14 @@ El cliente:
 
 ---
 
-### 🧵 Concurrencia
+### Concurrencia
 
 - Cada cliente se maneja en un hilo independiente  
 - Se utiliza `threading.Lock` para proteger el acceso concurrente a la base de datos  
 
 ---
 
-### 🗄️ Base de datos SQLite
+### Base de datos SQLite
 
 - Archivo: `mensajes.db`  
 - Tabla creada automáticamente:
@@ -95,7 +95,7 @@ Cada mensaje guarda:
 
 ---
 
-### 🕒 Fechas
+### Fechas
 
 Se utiliza:
 
@@ -107,7 +107,7 @@ Esto garantiza timestamps confiables y evita advertencias deprecadas.
 
 ---
 
-### 📩 Respuesta del servidor
+### Respuesta del servidor
 
 Por cada mensaje válido recibido, el servidor responde:
 
@@ -124,7 +124,7 @@ Además, el servidor imprime en consola:
 
 ---
 
-## 💻 Funcionamiento del cliente (`cliente.py`)
+## Funcionamiento del cliente (`cliente.py`)
 
 - Se conecta al servidor TCP especificado  
 - Maneja errores de conexión (`ConnectionRefusedError`)  
@@ -134,7 +134,7 @@ Además, el servidor imprime en consola:
 
 ---
 
-## ⚠️ Manejo de errores
+## Manejo de errores
 
 ### Servidor
 
@@ -154,7 +154,7 @@ Además, el servidor imprime en consola:
 
 ---
 
-## 🚀 Características principales
+## Características principales
 
 - Arquitectura cliente-servidor  
 - Comunicación TCP/IP  
@@ -165,7 +165,15 @@ Además, el servidor imprime en consola:
 
 ---
 
-## 🎓 Información académica
+## Capturas de pruebas
+## Terminal cliente.py
+<img width="886" height="305" alt="image" src="https://github.com/user-attachments/assets/dc2bf877-3e6f-402e-90cb-9f70608bc2f1" />
+
+## Terminal servidor.py
+<img width="886" height="272" alt="image" src="https://github.com/user-attachments/assets/bc76aa29-e73c-4ecd-a81b-85c8e42721ca" />
+
+---
+## Información académica
 
 **Instituto de Formación Técnica Superior N° 29**  
 Tecnicatura Superior en Desarrollo de Software  
