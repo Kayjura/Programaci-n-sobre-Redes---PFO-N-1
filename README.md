@@ -175,9 +175,10 @@ Además, el servidor imprime en consola:
 <img width="886" height="272" alt="image" src="https://github.com/user-attachments/assets/bc76aa29-e73c-4ecd-a81b-85c8e42721ca" />
 
 ---
->>>>>>> 96c0713c7fe0f497f3714af5da73b614809dbc85
+
 ## Información académica
 
 **Instituto de Formación Técnica Superior N° 29**  
-Tecnicatura Superior en Desarrollo de Software  
+Tecnicatura Superior en Desarrollo de Software
+Daniel Cordoba - 3°A 
 **Año 2026**
