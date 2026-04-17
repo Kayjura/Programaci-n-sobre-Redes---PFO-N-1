@@ -165,8 +165,6 @@ Además, el servidor imprime en consola:
 
 ---
 
-<<<<<<< HEAD
-=======
 ## Capturas de pruebas
 ## Terminal cliente.py
 <img width="886" height="305" alt="image" src="https://github.com/user-attachments/assets/dc2bf877-3e6f-402e-90cb-9f70608bc2f1" />
@@ -179,6 +177,5 @@ Además, el servidor imprime en consola:
 ## Información académica
 
 **Instituto de Formación Técnica Superior N° 29**  
-Tecnicatura Superior en Desarrollo de Software
-Daniel Cordoba - 3°A 
+Tecnicatura Superior en Desarrollo de Software - Daniel Cordoba - 3°A - 
 **Año 2026**
