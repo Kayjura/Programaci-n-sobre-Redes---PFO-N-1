@@ -165,6 +165,17 @@ Además, el servidor imprime en consola:
 
 ---
 
+<<<<<<< HEAD
+=======
+## Capturas de pruebas
+## Terminal cliente.py
+<img width="886" height="305" alt="image" src="https://github.com/user-attachments/assets/dc2bf877-3e6f-402e-90cb-9f70608bc2f1" />
+
+## Terminal servidor.py
+<img width="886" height="272" alt="image" src="https://github.com/user-attachments/assets/bc76aa29-e73c-4ecd-a81b-85c8e42721ca" />
+
+---
+>>>>>>> 96c0713c7fe0f497f3714af5da73b614809dbc85
 ## Información académica
 
 **Instituto de Formación Técnica Superior N° 29**  
